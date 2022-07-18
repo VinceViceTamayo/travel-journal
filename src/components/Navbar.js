@@ -1,9 +1,11 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar(){
-    return(
+    return (
         <nav>
-            <img src="images/globe.png" alt="globe image"/>
+            <FontAwesomeIcon icon={faGlobe} />
             <h4>My Travel Journal</h4>
         </nav>
     )
