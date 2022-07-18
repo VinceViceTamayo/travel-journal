@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: #F55A5A;
+    color:#FFFFFF;
+    text-align: center;
+    height: 55px;
+    width: 550px;
+}
