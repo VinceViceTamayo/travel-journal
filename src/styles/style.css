@@ -14,11 +14,32 @@ nav {
     background-color: #F55A5A;
     color:#FFFFFF;
     text-align: center;
-    height: 100px;
+    height: 55px;
     width: 550px;
 }
 
 nav > svg{
     margin-top: 20px;
+    margin-bottom: 19px;
     margin-right: 7px;
+}
+
+.card{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+h3, h5{
+    margin: 0;
 }
